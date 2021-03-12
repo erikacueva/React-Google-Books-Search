@@ -1,8 +1,16 @@
 import axios from "axios";
 
-export default {
-  saveBook: function(bookData) {
-    return axios.post("/api/books", bookData);
-  }
+const whatevs = {
+    saveBook: function(bookData) {
+            return axios.post("/api/books", bookData);
+    }
 };
+
+export default whatevs;
+
+// export default {
+//   saveBook: function(bookData) {
+//     return axios.post("/api/books", bookData);
+//   }
+// };
 

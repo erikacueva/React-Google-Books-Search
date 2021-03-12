@@ -4,7 +4,7 @@ import React from 'react';
 const Header = () => {
     return(
         <header>
-           <h1>Book Card</h1> 
+           <h1>Click "Search" to Search for a Book Using Google's Book API</h1> 
         </header>
     )
 }
